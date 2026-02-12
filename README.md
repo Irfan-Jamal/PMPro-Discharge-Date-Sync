@@ -1,7 +1,7 @@
 # PMPro Discharge Date Sync 
 
 **Version:** 1.1.0  
-**Author:** Your Name  
+**Author:** Muhammad Jamal
 **License:** GPL v2 or later  
 **Requires:** WordPress 5.3+, PHP 7.4+, Paid Memberships Pro 2.0+
 
@@ -718,6 +718,6 @@ For bug reports, feature requests, or questions:
 
 ## 🙏 Credits
 
-Built for Paid Memberships Pro by [Your Name]
+Built for Paid Memberships Pro by Muhammad Jamal
 
 Special thanks to the PMPro team for their excellent plugin and documentation.

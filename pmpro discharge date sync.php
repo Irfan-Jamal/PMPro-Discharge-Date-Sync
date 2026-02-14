@@ -973,3 +973,18 @@ final class PMPro_Discharge_Date_Sync {
 
 // Initialize the plugin.
 PMPro_Discharge_Date_Sync::init();
+
+//Test code snippet for adding custom text to PMPro Account page membership rows.
+/**
+ * Show custom text in each membership row on the PMPro Account page.
+ * Add to your theme's functions.php or a custom plugin.
+ */
+add_action( 'pmpro_member_action_links_after', function( $level ) {
+	if ( empty( $level ) || empty( $level->id ) ) {
+		return;
+	}
+
+	echo '<div class="pmpro_custom_membership_row_note" style="margin-top:8px;">';
+	echo esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'pmpro' );
+	echo '</div>';
+}, 10, 1 );

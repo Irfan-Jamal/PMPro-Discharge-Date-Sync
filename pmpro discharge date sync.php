@@ -2,9 +2,9 @@
 /**
  * Plugin Name: PMPro Discharge Date Sync
  * Description: Adds a discharge date field for a specific PMPro membership level and syncs it to membership expiration. The date is set once and cannot be changed by users.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: Muhammad Jamal
- * Requires at least: 5.3.1
+ * Requires at least: 5.3
  * Requires PHP: 7.4
  * License: GPL v2 or later
  *
